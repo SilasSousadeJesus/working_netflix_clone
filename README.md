@@ -37,9 +37,6 @@
   </div>
 
 
-Netflix Clone with React, Redux Toolkit, Nodejs, MongoDB.
-
-
 </div>
 
   <h3>Para usar este projeto siga os seguintes passos: </h3>
