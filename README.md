@@ -16,7 +16,7 @@
   <h3> Requisitos do Negócio</h3>
  
    <ul>
-    <li>Clone da UI da netflix</li>
+    <li>Clone da UI da Netflix</li>
     <li>Login e Autenticação de Usuarios</li>
     <li>Previw de cenas dos filmes</li>
     <li>Lista de Filmes Favoritos</li>
