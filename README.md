@@ -18,7 +18,7 @@
    <ul>
     <li>Clone da UI da Netflix</li>
     <li>Login e Autenticação de Usuarios</li>
-    <li>Previw de cenas dos filmes</li>
+    <li>Preview de cenas dos filmes</li>
     <li>Lista de Filmes Favoritos</li>
   </ul>
    <br>
