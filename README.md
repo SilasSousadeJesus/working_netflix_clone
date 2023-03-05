@@ -1,70 +1,64 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center"> Overview da Aplicação </h2>
 
-## Available Scripts
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604"  src="./front-end/src/assets/img/teladelogin.jpg"> |  <img width="1604" src="./front-end/src/assets/img/teladeprojetos.jpg"> |<img width="1604"  src="./front-end/src/assets/img/teladetasks.jpg">|
 
-In the project directory, you can run:
+  <h2 align="center"> Clique no link para assistir o video da aplicação:  </h2>
+  <h3 align="center" >  Em Construção.... </h3>
 
-### `npm start`
+<div>
+  <br>
+  <h3 >Esta  é Aplicação web que consiste em um clone funcional da serviço de streaming online Netflix.</h3>
+  <br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h3> Requisitos do Negócio</h3>
+ 
+   <ul>
+    <li>Clone da UI da netflix</li>
+    <li>Login e Autenticação de Usuarios</li>
+    <li>Previw de cenas dos filmes</li>
+    <li>Lista de Filmes Favoritos</li>
+  </ul>
+   <br>
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div>
+  <h2 >Tecnologias & Ferramentas utilizadas </h2>
+  
+  <div >
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" >
+    <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" >
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+    <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB">
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+     <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase" >
+  </div>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Netflix Clone with React, Redux Toolkit, Nodejs, MongoDB.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <h3>Para usar este projeto siga os seguintes passos: </h3>
+  <ul >
+    <li>Faça um git clone ou baixe manualmente o projeto.</li>
+    <p>copie e colo no seu terminal: git clone https://github.com/SilasSousadeJesus/yourTaskProject.git</p>
+    <li>No seu VSCODE abra um terminal para pasta back-end e instala os modulos com o comando npm install</li>
+    <li>No seu VSCODE abra um terminal para pasta front-end e instala os modulos com o comando npm install</li>
+    <li>Dentro da pasta BackEnd renomeio o arquivo .env_exemplo para .env</li>
+    <li>Dentro do arquivo .env coloque sua chave do mongoDB logo apos MONGODB_URI=, exemplo abaixo:</li>
+     <p>MONGODB_URI=mongodb+srv://user:senha@cluster0.fp3bn.mongodb.net/mydatabase</p>
+     <li>Dentro do arquivo .env coloque uma sequencia de letras que seram sua secret, exemplo abaixo:</li>
+     <p>SECRET=SHVCKASFASFASFASASFAAAFSMUENFELNEAUQFVFVN</p>
+     <li>No seu VSCODE abra a pasta back-end no terminal e digite o comando: npm run dev e deixe o servidor rodando</li>
+     <li>No seu VSCODE abra a pasta front-end em outro terminal e digite o comando: npm start. e deixe rodando</li>
+     <li>Tudo pronto!!</li>
+  </ul>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div align="center">
+  imagem logo...
+</div>
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
